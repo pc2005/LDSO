@@ -19,4 +19,4 @@ evaluation/matlab-evaluation/**/*.mat
 
 # python
 **.pyc
-syncing_fork.sh
+*.ply

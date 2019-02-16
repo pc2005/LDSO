@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "program": "${workspaceFolder}/bin/run_dso_tum_mono",
+            "args": [
+                "preset=0",
+                "files=/media/pc2005/SSD_1TB/workdir/data/TUM_mono/sequence_34/images.zip",
+                "vignette=/media/pc2005/SSD_1TB/workdir/data/TUM_mono/sequence_34/vignette.png",
+                "calib=/media/pc2005/SSD_1TB/workdir/data/TUM_mono/sequence_34/camera.txt",
+                "gamma=/media/pc2005/SSD_1TB/workdir/data/TUM_mono/sequence_34/pcalib.txt"
+            ],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
